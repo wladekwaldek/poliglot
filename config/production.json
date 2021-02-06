@@ -1,6 +1,5 @@
 {
-	"port": 5000,
-	"mongoU": "mongodb://localhost/chat",
+	"port": 80,
 	"jwtSecret": "qwery",
 	"mongoUri": "mongodb+srv://vlad:123qwerty@cluster0.cfmnh.mongodb.net/chat?retryWrites=true&w=majority"
 }

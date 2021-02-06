@@ -12,7 +12,7 @@ class Chat extends React.Component {
     }
 
     componentDidMount() {
-        this.webSock('ws://localhost:8080')
+        this.webSock('ws://poliglot.chvv.info:8080')
         console.log('render')
     }
 
