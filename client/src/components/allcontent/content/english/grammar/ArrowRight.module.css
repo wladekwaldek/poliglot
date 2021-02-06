@@ -1,0 +1,19 @@
+.arrow {
+    height: 5vw;
+    width: 5vw;
+    border: 3px solid #0075ff;
+    transform: rotate(43deg);
+}
+
+.arrow:hover {
+    transform: scale(1.1) rotate(45deg);
+}
+
+.arrow:active {
+    transform: scale(1.2) rotate(45deg);
+}
+
+.arrow_right {
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}

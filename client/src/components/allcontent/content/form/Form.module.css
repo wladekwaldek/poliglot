@@ -1,0 +1,36 @@
+.form {
+    background-color: #0075ff;
+    text-align: center;
+    color: #aaffaa;
+    padding: 1vw;
+    height: 20vw;
+    width: 30vw;
+    margin: 1vw auto;
+
+}
+
+.form input {
+    display: block;
+    margin: 1vw auto;
+    width: 90%;
+    height: 2vw;
+    outline: none;
+    background-color: #0075ff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid darkgray;
+}
+
+.form button {
+    margin: 0 2vw;
+    border-radius: 35px;
+    outline: none;
+    font-size: 1.7vw;
+    padding: 0 1vw;
+    color: #aaffaa;
+}
+
+.login {
+    margin-bottom: 2vw;
+}

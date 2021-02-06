@@ -1,0 +1,21 @@
+.links {
+	height: 20%;
+}
+
+.links a {
+	text-decoration: none;
+	color: #ccffcc;
+	font-size: 2.5vw;
+	margin: 3%;
+}
+
+.links a:first-child {
+	margin:1%;
+}
+
+.links i {
+	color: #aaffaa;
+	font-size: 2.5vw;
+	margin: 0;
+}
+

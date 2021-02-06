@@ -1,0 +1,15 @@
+.td {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.plus {
+    position: absolute;
+    color: white;
+    background-color: #f08000;
+    padding-left: 2px;
+}
+
+.plus:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.tables {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.black_square {
+	background-color: black;
+	padding: 10px;
+	width: 80%;
+	color: #aaffaa;
+	text-align: center;
+}
+
+
+

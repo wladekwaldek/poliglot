@@ -1,0 +1,26 @@
+.words {
+	display: flex;
+	width: 70%;
+	font-size: 2.5vw;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu a {
+	display: block;
+	padding: 1vw;
+	margin: 1vw 1vw;
+	background: #D2973D;
+	border-radius: 10px;
+	transition: .2s linear;
+	text-decoration: none;
+	color: #aaffaa;
+}
+
+.menu a:hover {
+	box-shadow: 0 0 0 2px #ccffcc, 0 0 0 4px #D2973D;
+	cursor: pointer;
+}
+

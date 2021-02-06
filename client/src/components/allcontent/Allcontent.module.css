@@ -1,0 +1,10 @@
+.all_content {
+	color: #3d3d3d;
+	font-size: 2vw;
+	background-color: #dadcff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+
