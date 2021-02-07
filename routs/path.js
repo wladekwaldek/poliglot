@@ -138,7 +138,6 @@ router.post('/add-word', async (req, res) => {
 router.post('/add-words', async (req, res) => {
     try {
         const {len, org, rus, id} = req.body
-        console.log(org)
         const user = await User.findOne({_id: id})
         if (!user) {
             return res.status(400).json({message: 'Ops! Попробуйте ещё раз.'})

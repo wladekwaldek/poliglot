@@ -43,7 +43,7 @@ class UsersWords extends React.Component {
     render() {
         return (
             <>
-                {this.state.isFatching ? <img src={preloader} /> : null}
+                {this.state.isFatching ? <img src={preloader} /> : 
                 <div className={classes.tables}>
                     <ArrowLeft/>
                     <table className={classes.words}>
@@ -65,7 +65,7 @@ class UsersWords extends React.Component {
                         </tfoot>
                     </table>
                     <ArrowRight/>
-                </div>
+                </div>}
             </>
         )
     }

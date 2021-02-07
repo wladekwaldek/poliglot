@@ -18,7 +18,7 @@ const Cabinet = () => {
 
     const addWord = async () => {
         const data = await request('/api/add-word', 'POST', {...form}, {})
-        setForm({len: 'english', kind: '', org: '', rus: ''})
+        setForm({len: 'english', kind: '', org: '', rus: ''})//?
         alert(data.message)
     }
 

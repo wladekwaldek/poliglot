@@ -27,8 +27,8 @@ const TableRow = (props) => {
                 <div className={classes.plus}
                      onClick={addWords}
                 title='добавить в словарь?'>+</div>
-                {props.values.org}</td>
-            <td>{props.values.rus}</td>
+                {word.org}</td>
+            <td>{word.rus}</td>
         </tr>
     )
 }
