@@ -1,6 +1,14 @@
-.h1 {
+.large {
 	width: 70%;
 	font-size: 4.5vw;
+	color: #aaaaff;
+	text-shadow: 1px 1px 1px blue, 0 -1px 1px blue;
+	margin-top: 5%;
+}
+
+.portraite {
+	width: 70%;
+	font-size: 25px;
 	color: #aaaaff;
 	text-shadow: 1px 1px 1px blue, 0 -1px 1px blue;
 	margin-top: 5%;

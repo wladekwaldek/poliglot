@@ -5,6 +5,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	align-items: center;
 }
 
-
+.all_content2 {
+	color: #3d3d3d;
+	font-size: 18px;
+	background-color: #dadcff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -2,10 +2,12 @@
     margin: 0;
 }
 
-body {
-	
-}
-
 h1, h2, p {
     margin: 1vw;
+}
+
+.header {
+	width: 100%;
+	height: 30%;
+	background:url(./img/bg_top2.jpg) repeat-x;
 }
