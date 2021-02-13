@@ -40,16 +40,13 @@ class Words extends React.Component {
     }
 
         async sendRequest(url)  {
-            this.setState({isFatching: true})
-            await fetch(url)
-                .then(response => {
-                    return response.json()
-                })
-                .then(data => {
-                    this.setState({words: data.resul, count: data.count})
-                })
-                .catch(err => console.log(err))
-            this.setState({isFatching: false})
+            try {
+                this.setState({isFatching: true})
+                const responce = await fetch(url)
+                const data = await responce.json()
+                this.setState({words: data.resul, count: data.count})
+                this.setState({isFatching: false})
+            } catch (err) { console.log(err) }           
         }
 
     setUrl = () => `/api/words/${this.state.uri}/${this.state.kind}?page=${this.state.page}&limit=${this.state.limit}`
@@ -72,9 +69,8 @@ class Words extends React.Component {
     }
 
     render() {
+        if(this.state.isFatching) return <img src={preloader} />
         return (
-            <>
-                {this.state.isFatching ? <img src={preloader} /> : 
                 <div className={classes.tables}>
                     <ArrowLeft decr={this.decr} />
                     <table className={classes.words}>
@@ -99,8 +95,7 @@ class Words extends React.Component {
                         </tfoot>
                     </table>
                     <ArrowRight incr={this.incr}/>
-                </div>}
-            </>
+                </div>
         )
     }
 }
